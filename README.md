@@ -1,1 +1,4 @@
 # Machine_Translation
+This project is a real-time language translation application that converts English speech or text into French and Spanish. It is built using Python and FastAPI, focusing on delivering fast, accurate, and accessible translations for users who need multilingual communication in real-time.
+
+The core functionality includes speech-to-text conversion, translation, and text-to-speech synthesis. The application uses speech recognition libraries to capture and transcribe spoken English input. For translation, the system utilizes pre-trained machine translation models or APIs (such as Google Translate API or Transformers-based models like MarianMT from Hugging Face) to convert English input into the desired target language—French or Spanish. Finally, text-to-speech (TTS) technology is used to convert the translated text back into spoken language, enabling a fully audible interaction.
